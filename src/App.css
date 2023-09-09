@@ -1,0 +1,114 @@
+/* Navbar styles */
+.container {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* padding: 10px 20px; */
+}
+
+/* Logo styles */
+.navbar-logo {
+  display: inline-block;
+  /* width: 30px; */
+  height: 44px;
+}
+
+/* Center-align the navbar list */
+.navbar-list {
+  list-style: none;
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  /* padding: 1px 2px; */
+}
+
+/* Style the navbar list items */
+.navbar-list li {
+  margin: 0 10px;
+  /* color: #fff;
+  font-family: Agrandir;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 18px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase; */
+}
+
+.navbar-list a {
+  text-decoration: none;
+  color: white;
+  font-size: 0.75rem;
+}
+
+/* Style the navbar list items on hover */
+.navbar-list a:hover {
+  text-decoration: underline;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cash {
+  width: 44rem;
+  height: 19rem;
+  font-size: 13rem;
+  color: white;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 9rem;
+}
+
+.phone-img {
+  display: flex;
+  position: absolute;
+  top: 16rem;
+  right: 38.2rem;
+  z-index: 1;
+}
+
+.app {
+  width: 44rem;
+  height: 19rem;
+  font-size: 13rem;
+  color: white;
+  position: absolute;
+  z-index: 2;
+  top: 15rem;
+  left: 27rem;
+}
+
+.cube {
+  position: relative;
+  top: -19rem;
+  left: -1rem;
+  width: 4.6rem;
+  height: 4.5rem;
+}
+
+.stairs {
+  position: relative;
+  top: -14rem;
+  right: -10rem;
+  width: 13rem;
+  height: auto;
+}
+
+.cubes {
+  position: relative;
+  right: 64rem;
+  bottom: -16rem;
+}
+
+.pillar {
+  position: relative;
+  bottom: 0rem;
+  right: 16rem;
+  width: 20rem;
+}
