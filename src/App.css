@@ -1,4 +1,8 @@
 /* Navbar styles */
+* {
+  padding: 0;
+  margin: 0;
+}
 .container {
   overflow: hidden;
   display: flex;
@@ -42,11 +46,6 @@
   font-size: 0.75rem;
 }
 
-/* Style the navbar list items on hover */
-.navbar-list a:hover {
-  text-decoration: underline;
-}
-
 .body {
   display: flex;
   justify-content: center;
@@ -56,59 +55,102 @@
 .cash {
   width: 44rem;
   height: 19rem;
-  font-size: 13rem;
+  font-size: 11rem;
   color: white;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  left: 9rem;
+  left: 14rem;
+  top: 6rem;
 }
 
 .phone-img {
   display: flex;
   position: absolute;
-  top: 16rem;
-  right: 38.2rem;
+  top: 10rem;
+  right: 42.2rem;
   z-index: 1;
 }
 
 .app {
   width: 44rem;
   height: 19rem;
-  font-size: 13rem;
+  font-size: 11rem;
   color: white;
   position: absolute;
   z-index: 2;
-  top: 15rem;
-  left: 27rem;
+  top: 21rem;
+  left: 25rem;
 }
 
 .cube {
   position: relative;
-  top: -19rem;
-  left: -1rem;
+  top: -9rem;
+  left: 12rem;
   width: 4.6rem;
   height: 4.5rem;
 }
 
 .stairs {
   position: relative;
-  top: -14rem;
-  right: -10rem;
+  top: -1rem;
+  right: -17rem;
   width: 13rem;
   height: auto;
 }
 
 .cubes {
   position: relative;
-  right: 64rem;
-  bottom: -16rem;
+  right: 55rem;
+  bottom: -27rem;
 }
 
 .pillar {
   position: relative;
-  bottom: 0rem;
-  right: 16rem;
-  width: 20rem;
+  bottom: -28rem;
+  right: 12rem;
+  width: 25rem;
+}
+.buttonSection {
+  display: flex;
+  justify-content: space-around;
+  height: 8vh;
+  z-index: 3;
+}
+.buttonSectionA {
+  display: flex;
+  background-color: black;
+  border-radius: 1vh;
+  border: 2px solid white;
+}
+.Appleclasswritten {
+  color: aliceblue;
+}
+.buttonsectionb {
+  display: flex;
+  background-color: black;
+  border-radius: 1vh;
+  border: 2px solid white;
+}
+.my-1 {
+  margin: 1vh;
+}
+.lastSection {
+  display: flex;
+  justify-content: space-around;
+}
+.written {
+  color: aliceblue;
+  font-family: "Mulish", sans-serif;
+  font-size: 1vw;
+  width: 30vw;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  bottom: -39vh;
+  z-index: 99;
 }
